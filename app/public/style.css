@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  font-family:sans-serif;
+  margin: auto;
+  color: #fff;
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  text-align: center;
+  justify: center;
+}
+
+h1{
+  mARGIN-top: 40px;}
+
+form {
+  margin-bottom: 40px;
+  padding: 30px;
+  
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+  text-align: center;
+  justify: center;
+}
+
+input {
+  display: block;
+  margin-bottom: 8px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  padding: 9px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #E4F1FE;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+
+}
+
+textarea{
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+#reportThread{
+  width: 40px;
+  padding: 0px;
+  margin: 0px;
+    display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+#deleteThread{
+   width: 100px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+
+#reportReply{
+   width: 40px;
+  padding: 0px;
+  margin: 0px 5px 0px 5px;
+    display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+
+#deleteReply{
+   width: 100px;
+  padding: 0px;
+   margin: 0px 5px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+#delPass{
+  width:45px;
+  font-size: 10px;
+}
+
+#repDelButt{
+ width: 40px;
+  font-size: 10px;
+  padding: 3px;
+}
+
+#threadText{
+  font-size: 35px;
+  padding: 50px 0px 20px 0px;
+}
+
+#repText{
+ margin: 45px 0px 30px 0px; 
+  color: #ffc;
+}
+
+
+#repCount{
+  padding: 20px 0px 6px 0px;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+a{
+  color: #ff9;
+}
+
+.replies {
+ border-bottom: 2px solid white;
+ border-top: 2px solid white;
+ margin: 40px 0px 40px 0px;
+}
+
+.reply {
+  border: 2px solid white;
+ margin: 10px 200px 10px 200px;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+ margin: 0px 50px 60px 50px;
+  padding: 5px;
+  margin-bottom: 60px;
+  text-align: center;
+  justify: center;
+  border: 5px solid white;
+  background: rgb(10, 15, 15)
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+
+
+#newRep{
+  margin-top: 20px;
+  width: 200px;
+  display: inline-block;
+  float: center;
+}
